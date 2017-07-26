@@ -1,7 +1,6 @@
 {
   "name": "jquery-kodilla",
   "version": "1.0.0",
-  "description": "",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +10,20 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "jquery": "^3.2.1",
     "jquery-ui": "^1.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/85bogdan/jquery-kodilla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/85bogdan/jquery-kodilla/issues"
+  },
+  "homepage": "https://github.com/85bogdan/jquery-kodilla#readme",
+  "description": ""
 }
